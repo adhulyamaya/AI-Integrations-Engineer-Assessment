@@ -63,8 +63,9 @@ Quotation-Microservice/
   "delivery_terms": "DAP Dammam, 4 weeks",
   "notes": "Client asked for spec compliance with Tarsheed."
 }
+``` 
 
-```json Response body
+``` Response body
 {
   "items": [
     {
@@ -83,6 +84,7 @@ Quotation-Microservice/
   "grand_total": 39643.6,
   "email_draft": "Dear Gulf Eng.,\n\nPlease find your quotation. Total amount: 39,643.60 SAR\nDelivery: DAP Dammam, 4 weeks\nNotes: Client asked for spec compliance with Tarsheed.\n\nRegards,\nSales Team"
 }
+``` 
 
 ## Installation & Running Locally
 
@@ -116,3 +118,12 @@ docker build -t quotation-service .
 docker run -p 8000:8000 quotation-service
 
 
+## API Request Example
+
+POST /quote
+
+![Request Screenshot](Screenshots/request.jpeg)
+
+## API Response Example
+
+![Response Screenshot](Screenshots/response.jpeg)
