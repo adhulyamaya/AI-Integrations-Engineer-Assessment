@@ -63,7 +63,7 @@ Quotation-Microservice/
   "delivery_terms": "DAP Dammam, 4 weeks",
   "notes": "Client asked for spec compliance with Tarsheed."
 }
-
+``` 
 ```json Response body
 {
   "items": [
@@ -83,7 +83,7 @@ Quotation-Microservice/
   "grand_total": 39643.6,
   "email_draft": "Dear Gulf Eng.,\n\nPlease find your quotation. Total amount: 39,643.60 SAR\nDelivery: DAP Dammam, 4 weeks\nNotes: Client asked for spec compliance with Tarsheed.\n\nRegards,\nSales Team"
 }
-
+``` 
 ## Installation & Running Locally
 
 # Clone repository
